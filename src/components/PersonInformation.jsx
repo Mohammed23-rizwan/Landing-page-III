@@ -5,7 +5,7 @@ import AssetsProgress from "./AssetsProgress";
 const PersonInformation = () => {
   return (
     <>
-      <div className="mt-8 px-4 flex flex-col md:flex-row justify-between w-screen">
+      <div className="mt-8 px-4 flex flex-col md:flex-row justify-between">
         <div className="flex items-center w-full">
           <div className="img-container w-[130px] h-[190px] md:w-[190px] md:h-[250px] bg-slate-500 relative">
             <img
@@ -35,7 +35,7 @@ const PersonInformation = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center md:mr-10 gap-10 mt-5 md:mt-0 ">
+        <div className="flex items-center mr-10 gap-10 w-full">
           <div className="flex flex-col items-center ">
             <div className="flex justify-center items-center gap-2 opacity-50">
               <LuIndianRupee className="md:text-2xl text-lg" />
