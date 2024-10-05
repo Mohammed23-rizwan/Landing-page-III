@@ -1,4 +1,5 @@
 import logo from "../assets/avon-fav-icon.ico";
+import { Link } from "react-router-dom";
 import { IoIosNotifications } from "react-icons/io";
 import { CiSettings } from "react-icons/ci";
 import { RxAvatar } from "react-icons/rx";
@@ -37,7 +38,9 @@ const topNavbar = () => {
               <CiSettings className="text-2xl text-[#3e3e3ea1] cursor-pointer" />
             </li>
             <li>
-              <RxAvatar className="text-2xl text-[#3e3e3ea1] cursor-pointer" />
+              <Link to="/user-info">
+                <RxAvatar className="text-2xl text-[#3e3e3ea1] cursor-pointer" />
+              </Link>
             </li>
             <li>
               <CiPower className="text-2xl text-[#3e3e3ea1] cursor-pointer" />
