@@ -35,16 +35,16 @@ const PersonInformation = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center mr-10 gap-10 w-full">
-          <div className="flex flex-col items-center ">
+        <div className="flex items-center mr-0 md:mr-10 gap-10 w-full mt-5 md:mt-0">
+          <div className="flex flex-col items-center justify-center w-full">
             <div className="flex justify-center items-center gap-2 opacity-50">
               <LuIndianRupee className="md:text-2xl text-lg" />
-              <h2 className="md:text-4xl text-2xl">2.5 Lakhs</h2>
+              <h2 className=" md:text-4xl text-2xl">2.5 Lakhs</h2>
             </div>
             <p className="text-sm text-green-800">today worthy assets</p>
           </div>
           <div className="border md:w-[1px] w-[1px] md:h-[25%] h-[px] bg-slate-600"></div>
-          <div className="flex flex-col items-center ">
+          <div className="flex flex-col items-center justify-center w-full">
             <div className="flex justify-center items-center gap-2 opacity-50">
               <LuIndianRupee className="text-2xl " />
               <h2 className="md:text-4xl text-2xl">2.5 Lakhs</h2>
@@ -55,7 +55,7 @@ const PersonInformation = () => {
           </div>
         </div>
       </div>
-      {/* <AssetsProgress /> */}
+      <AssetsProgress />
     </>
   );
 };

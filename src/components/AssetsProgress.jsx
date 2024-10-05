@@ -21,14 +21,14 @@ const AssetsProgress = () => {
 
   return (
     <>
-      <div className="mt-5 px-4 grid grid-cols-2 md:grid-cols-5 justify-items-center">
+      <div className="mt-5 px-4 grid grid-cols-2 md:grid-cols-5 justify-items-center w-full">
         {Users.map((items) => {
           return (
             <div
               className="w-[150px] flex items-center flex-col"
               key={items.id}
             >
-              <div className="w-[150px] h-[150px] flex items-center flex-col">
+              <div className="w-[180px] md:w-[150px] h-[180px] md:h-[150px] flex items-center flex-col">
                 <div className="w-full h-full relative">
                   <ArcProgress
                     progress={val}

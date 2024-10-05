@@ -4,11 +4,11 @@ import { FaAngleDown } from "react-icons/fa";
 
 const BelowPerson = () => {
   return (
-    <div className="mt-10">
+    <div className="md:mt-10">
       <div className="flex justify-between items-center mx-4 py-4">
-        <div className="w-[270px] h-[50px] flex rounded-[25px] items-center relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
-          <IoIosAdd className="w-[50px] h-full bg-gradient-to-l from-rose-400 via-fuchsia-500 to-indigo-500 rounded-[50%] text-[#fff] absolute left-0" />
-          <button className="uppercase w-full text-lg h-full text-center font-bold">
+        <div className="md:w-[270px] h-[50px] flex rounded-[25px] items-center relative shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+          <IoIosAdd className="w-[50px] h-full bg-gradient-to-l from-rose-400 via-fuchsia-500 to-indigo-500 rounded-[50%] text-[#fff] absolute left-0 cursor-pointer" />
+          <button className="uppercase w-full text-lg h-full text-center font-bold hidden md:block">
             Add New
           </button>
         </div>
@@ -19,7 +19,7 @@ const BelowPerson = () => {
           </div>
           <div className="relative">
             <img
-              className="w-[100px] h-[100px] object-cover"
+              className="w-[100px] md:h-[100px] h-[130px] object-cover"
               src={img}
               alt=""
             />
