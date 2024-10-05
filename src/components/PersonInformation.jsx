@@ -5,9 +5,9 @@ import AssetsProgress from "./AssetsProgress";
 const PersonInformation = () => {
   return (
     <>
-      <div className="mt-8 px-4 flex justify-between">
-        <div className="flex items-center">
-          <div className="img-container w-[190px] h-[250px] bg-slate-500 relative">
+      <div className="mt-8 px-4 flex flex-col md:flex-row justify-between w-screen">
+        <div className="flex items-center w-full">
+          <div className="img-container w-[130px] h-[190px] md:w-[190px] md:h-[250px] bg-slate-500 relative">
             <img
               src={pro}
               alt=""
@@ -35,19 +35,19 @@ const PersonInformation = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center mr-10 gap-10">
+        <div className="flex items-center md:mr-10 gap-10 mt-5 md:mt-0 ">
           <div className="flex flex-col items-center ">
             <div className="flex justify-center items-center gap-2 opacity-50">
-              <LuIndianRupee className="text-2xl " />
-              <h2 className="text-4xl">2.5 Lakhs</h2>
+              <LuIndianRupee className="md:text-2xl text-lg" />
+              <h2 className="md:text-4xl text-2xl">2.5 Lakhs</h2>
             </div>
             <p className="text-sm text-green-800">today worthy assets</p>
           </div>
-          <div className="border w-[1px] h-[25%] bg-slate-600"></div>
+          <div className="border md:w-[1px] w-[1px] md:h-[25%] h-[px] bg-slate-600"></div>
           <div className="flex flex-col items-center ">
             <div className="flex justify-center items-center gap-2 opacity-50">
               <LuIndianRupee className="text-2xl " />
-              <h2 className="text-4xl">2.5 Lakhs</h2>
+              <h2 className="md:text-4xl text-2xl">2.5 Lakhs</h2>
             </div>
             <p className="text-sm text-red-800 text-center">
               today worthy assets
@@ -55,7 +55,7 @@ const PersonInformation = () => {
           </div>
         </div>
       </div>
-      <AssetsProgress />
+      {/* <AssetsProgress /> */}
     </>
   );
 };
