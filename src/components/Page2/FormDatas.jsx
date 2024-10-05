@@ -2,7 +2,7 @@ import React from "react";
 
 const FormData = () => {
   return (
-    <div className="w-[40%] h-full ml-4 mb-4 flex items-center flex-col shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+    <div className="w-[40%] max-h-[100%] ml-4 mb-4 flex items-center flex-col shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
       <h2 className="text-center pt-5">Add benificiary</h2>
 
       <form className="w-[80%] mt-4">
@@ -72,7 +72,7 @@ const FormData = () => {
             />
           </div>
         </div>
-        <div className="flex gap-3">
+        <div className="flex gap-3 mb-4">
           <button
             type="submit"
             class="text-black border border-black font-medium  text-sm w-full  px-5 py-2.5 text-center "

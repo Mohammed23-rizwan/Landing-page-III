@@ -2,7 +2,7 @@ import { Tabledatas1 } from "../../assets/data/data-assets3";
 
 const Tabledata = () => {
   return (
-    <div className="w-[60%]">
+    <div className="w-[60%] max-h-full">
       <div className="flex justify-between">
         <h1 className="text-2xl">List of Beneficiaries</h1>
         <div className="flex gap-4 items-center">

@@ -4,7 +4,7 @@ import FormData from "./FormDatas";
 
 const Splitbar = () => {
   return (
-    <div className="mt-4 flex h-full">
+    <div className="mt-4 flex min-h-full">
       <Tabledata />
       <FormData />
     </div>

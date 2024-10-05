@@ -6,7 +6,7 @@ const main2 = () => {
   return (
     <div>
       <TopNavbar />
-      <div className="h-screen flex overflow-hidden">
+      <div className="max-h-[710px] flex ">
         <Sidebar />
         <Leftpage2 />
       </div>
