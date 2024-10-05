@@ -1,9 +1,11 @@
 import LeftTab from "./LeftTab";
+import RightTab from "./RightTab";
 
 const MainMenubar = () => {
   return (
-    <div className="relative mt-2 w-full min-h-[550px]">
+    <div className="mt-2 w-full max-h-[710px] flex gap-1 overflow-hidden relative">
       <LeftTab />
+      <RightTab />
     </div>
   );
 };

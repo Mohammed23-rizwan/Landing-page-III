@@ -8,7 +8,7 @@ import { CiSearch } from "react-icons/ci";
 const topNavbar = () => {
   return (
     <div>
-      <nav className="flex justify-between h-[50px] items-center px-4 bg-[#ffffff]">
+      <nav className="flex justify-between h-[50px] items-center px-4 bg-[#ffffff] shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]">
         <div className="logo flex items-center">
           <div className="image-container w-[25px] h-[25px]">
             <img src={logo} className="w-full h-full" alt="" />
