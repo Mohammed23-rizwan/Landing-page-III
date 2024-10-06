@@ -2,7 +2,7 @@ import React from "react";
 
 const FormData = () => {
   return (
-    <div className="w-[40%] max-h-[100%] ml-4 mb-4 flex items-center flex-col shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+    <div className="w-full mt-4 lg:mt-0 lg:w-[40%] max-h-[100%] lg:ml-4 lg:mb-4 flex items-center flex-col shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
       <h2 className="text-center pt-5">Add benificiary</h2>
 
       <form className="w-[80%] mt-4">

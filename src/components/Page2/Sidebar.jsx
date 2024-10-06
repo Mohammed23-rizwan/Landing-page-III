@@ -4,7 +4,7 @@ import { IoIosArrowBack } from "react-icons/io";
 
 const Sidebar = () => {
   return (
-    <div className=" w-2/12 min-h-full bg-[#2B64AE]">
+    <div className=" w-2/12 min-h-full bg-[#2B64AE] hidden lg:block">
       <div className="flex flex-col h-full justify-between">
         <div className="pt-4 flex flex-col items-center">
           <div className="relative w-[60%] h-[170px]">

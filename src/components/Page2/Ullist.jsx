@@ -6,8 +6,8 @@ import { FaPen } from "react-icons/fa";
 
 const Ullist = () => {
   return (
-    <div className="w-full h-[75px]">
-      <ul className="h-full grid grid-cols-6 gap-1 text-[#055891]">
+    <div className="w-full h-full lg:h-[75px]">
+      <ul className="h-full grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-1 text-[#055891]">
         <li className="flex items-center  h-full gap-4 px-4 border border-[#ffffff65] shadow-[0_3px_10px_rgb(0,0,0,0.2)] bg-gradient-to-l from-fuchsia-500 via-pink-600 to-red-700 relative">
           <p className="text-white w-[25px] h-[25px] bg-[#055891] top-2 right-2 absolute text-center rounded-[50%]">
             4

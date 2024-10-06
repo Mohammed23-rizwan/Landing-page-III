@@ -6,7 +6,7 @@ const main2 = () => {
   return (
     <div>
       <TopNavbar />
-      <div className="max-h-[710px] flex ">
+      <div className="md:max-h-full lg:min-h-[710px] flex w-full">
         <Sidebar />
         <Leftpage2 />
       </div>

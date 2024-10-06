@@ -2,7 +2,7 @@ import { Tabledatas1 } from "../../assets/data/data-assets3";
 
 const Tabledata = () => {
   return (
-    <div className="w-[60%] max-h-full">
+    <div className="max-w-full lg:w-[60%] max-h-full overflow-x-scroll lg:overflow-auto">
       <div className="flex justify-between">
         <h1 className="text-2xl">List of Beneficiaries</h1>
         <div className="flex gap-4 items-center">
@@ -11,7 +11,7 @@ const Tabledata = () => {
           <button>Delete</button>
         </div>
       </div>
-      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 overflow-hidden">
         <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>
             <th scope="col" class="p-4">
@@ -57,7 +57,7 @@ const Tabledata = () => {
                 <td class="px-6 py-4">23/03/1998</td>
                 <td class="px-6 py-4">
                   <label class="inline-flex items-center cursor-pointer">
-                    <input type="checkbox" value="" class="sr-only peer" />
+                    <input type="checkbox" value="" class="hidden peer" />
                     <div class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
                   </label>
                 </td>
