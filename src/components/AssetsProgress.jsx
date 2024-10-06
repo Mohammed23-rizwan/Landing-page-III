@@ -21,7 +21,7 @@ const AssetsProgress = () => {
 
   return (
     <>
-      <div className="mt-5 px-4 grid grid-cols-2 md:grid-cols-5 justify-items-center w-full">
+      <div className="mt-5 px-4 grid grid-cols-2 lg:grid-cols-5 md:grid-cols-4 justify-items-center w-full">
         {Users.map((items) => {
           return (
             <div

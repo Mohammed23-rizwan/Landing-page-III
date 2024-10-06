@@ -2,11 +2,11 @@ import img from "../assets/pexels-moh-adbelghaffar-771742.jpg";
 
 const PersonDetails = ({ Users1 }) => {
   return (
-    <div>
+    <div className="grid md:grid-cols-2 lg:grid-cols-1">
       {Users1.map((item) => {
         return (
           <div className="flex justify-center mt-4" key={item.id}>
-            <div className="w-[95%] bg-white h-[170px] shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+            <div className="w-[95%] bg-white h-[170px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded">
               <div className="flex h-full justify-center items-center gap-4">
                 <div className="w-[120px] h-[150px] relative">
                   <img
